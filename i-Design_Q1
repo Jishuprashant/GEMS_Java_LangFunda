@@ -1,0 +1,27 @@
+// package iDesign_LanguageFundamental;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the Name :");
+		String name = sc.nextLine();
+		System.out.println("Enter the Creator Name :");
+		String createrName = sc.nextLine();
+		System.out.println("Enter the Purpose :");
+		String  purpose = sc.nextLine();
+		System.out.println("Memory Space :");
+		Integer memorySpace = sc.nextInt();
+		System.out.println("Speed :");
+		Double speed = sc.nextDouble();
+		System.out.println("My Details :");
+		System.out.println("I am the Robot named " + name + ".");
+		System.out.println("I was created by " + createrName + ".");
+		System.out.println("I am created for the purpose of " + purpose + ".");
+		System.out.println("My memory space is around " + memorySpace + "Gb"+" and my speed is " + speed + "Tb.");
+		sc.close();
+	}
+
+}
