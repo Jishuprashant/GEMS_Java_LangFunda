@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the cost of A4sheet:");
+		Integer sheetCost = sc.nextInt();
+		System.out.println("Enter the cost of Pen:");
+		Integer penCost = sc.nextInt();
+		System.out.println("Enter the cost of Pencil:");
+		Integer pencilCost = sc.nextInt();
+		System.out.println("Enter the cost of Eraser:");
+		Integer eraserCost = sc.nextInt();
+		
+		System.out.println("Items Details");
+		System.out.println("A4sheet:" + sheetCost);
+		System.out.println("Pen:" + penCost);
+		System.out.println("Pencil:" + pencilCost);
+		System.out.println("Eraser:" + eraserCost);
+		sc.close();
+	}
+
+}
