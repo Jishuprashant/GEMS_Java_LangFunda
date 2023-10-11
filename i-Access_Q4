@@ -1,0 +1,37 @@
+package com.java;
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Richter Magnitude:");
+		double scale = sc.nextDouble();
+		
+		if(scale <= 2.4)
+			System.out.println("Micro");
+		
+		else if(scale >= 2.5 && scale <= 5.4)
+			System.out.println("Light");
+		
+		
+		else if(scale >= 5.5 && scale <= 6.0)
+			System.out.println("Moderate");
+		
+		
+		else if(scale >= 6.1 || scale <= 6.9)
+			System.out.println("Strong");
+		
+		else if(scale >= 7.0 && scale <= 7.9)
+			System.out.println("Major");
+		
+		else if(scale >= 8.0)
+			System.out.println("Great");
+		
+		sc.close();
+		
+	}
+
+}
