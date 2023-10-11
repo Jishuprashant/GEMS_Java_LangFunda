@@ -1,0 +1,53 @@
+package com.java;
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter college name");
+		String collegeName = sc.nextLine();
+		
+		System.out.println("Enter college locality");
+		String localityName = sc.nextLine();
+		
+		System.out.println("Enter college's vision");
+		String collegeVision = sc.nextLine();
+		
+		System.out.println("Enter college's mission");
+		String collegeMission = sc.nextLine();
+		
+		System.out.println("Enter the number of departments");
+		int noOfDepartments = sc.nextInt();
+		
+		System.out.println("Enter student strength");
+		int studentStrength = sc.nextInt();
+		
+		System.out.println("Enter college rating");
+		char collegeRating = sc.next().charAt(0);
+		
+		System.out.println(collegeName);
+		System.out.println(localityName);
+		System.out.println("______________________________");
+		System.out.println("Vision");
+		System.out.println(collegeVision);
+		System.out.println("______________________________");
+		System.out.println("Mission");
+		System.out.println(collegeMission);
+		System.out.println("______________________________");
+		System.out.println("Number of departments");
+		System.out.println(noOfDepartments);
+		System.out.println("______________________________");
+		System.out.println("Student Strength");
+		System.out.println(studentStrength);
+		System.out.println("______________________________");
+		System.out.println("College Rating");
+		System.out.println(collegeRating);
+		System.out.println("______________________________");
+		
+		sc.close();
+	}
+
+}
