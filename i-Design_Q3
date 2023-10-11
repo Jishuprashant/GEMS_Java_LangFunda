@@ -1,0 +1,33 @@
+// package com.java;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		
+		// System.out.println("Enter the ticket types: ");
+		char ticket = sc.next().charAt(0);
+		
+		if( ticket == 'E' || ticket == 'e') {
+			System.out.println("Early Bird Ticket");
+		}
+		else if( ticket == 'D' || ticket == 'd') {
+			System.out.println("Discount Ticket");
+		}
+		else if( ticket == 'V' || ticket == 'v') {
+			System.out.println("VIP Ticket");
+		}
+		else if( ticket == 'S' || ticket == 's') {
+			System.out.println("Standard Ticket");
+		}
+		else if( ticket == 'C' || ticket == 'c') {
+			System.out.println("Child Ticket");
+		}
+		sc.close();
+
+	}
+
+}
